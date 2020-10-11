@@ -17,6 +17,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.android_me.ui.AndroidMeActivity">
 
+
     <!-- LinearLayout for holding three Android-Me images -->
     <LinearLayout
         android:id="@+id/android_me_linear_layout"
@@ -31,8 +32,12 @@
 
         <!-- TODO (4) Create a container to hold the head BodyPartFragment of the custom Android -->
         <!--The container should be 180dp in height -->
-
-
+        <FrameLayout
+            android:id="@+id/head_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            />
 
     </LinearLayout>
 
